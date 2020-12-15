@@ -2,17 +2,49 @@
 <html lang = "en">
 <head>
 	<meta charset="utf-8">
-	<title>Coursera is cool</title>
+	<title> Welcome to some hyperlinks! </title>
 </head>
 <body>
-<p>Coursera is <span>so cool</span> fameo</p>
 <section>
+	<!--This is the format for adding comments to a page -->
+	<!--first add link, title is when you mouseover the link what appears, words after is what appears on screen -->
+
 	This is practice on making hyperlinks! :D
-	<a href="myFirst.html" title="same dir link"> Linking to a file in the same directory. </a>
+	<h1 id="top"> Links to Sections of same page</h1>
+	<a href="myFirst.html" title="same dir link"> Linking to myFirst page  </a>
 
 	<a href="myFirst.html" title="same dir link">
-		<div> DIV linking to a file in the same directory. </div>
+		<div> DIV linking to a also to myFirst page </div>
 	</a>
+
+	<a href="https://www.youtube.com/watch?v=4SZEDBFPpgw" target = "_blank" title="Brings you to youtube page"> Listen to this really great artiste!
+	</a>
+
+	<ul>
+		<!--Link to every section in the page -->
+		<li><a href = "#section1">#section1 </a></li>
+		<li><a href = "#section2">#section2</a></li>
+	</ul>
+
+</section>
+
+<section id = "section1">
+	This lads and gents, is the very first section in html of my life!!
+	For this section, I use the id method in the identifier
+</section>
+
+<section>
+	<div>This giant chunk of text below is used as *plagiarised* filler text just so I can test my Back to Top function. </div> 
+	[MUSIC] Links pretty much what makes the web what it is. In this lecture, we're going to take a look at different types of links and how you could create them in your HTML page. So the first type of links that we're going to take a look at are internal links. Here I am looking at the file called links-internal.html, and it's located in the examples/Lecture09 folder. And here we have a couple of links we're going to take a look at. Now the way you create links is by specifying an a element with an attribute href. And href stands for hypertext reference. The value of href can either be a relative or an absolute URL. In our case here, since we're discussing internal links which are links that point to internal web pages of the where application, the links we're showing are all relative URL links. However we could still have an even absolute URL links as long as they point, again, to the same web application that we're in. Since we're providing no directory information, the browser will assume that same-directory.html is a file that lives in the same directory as links-internal.html. It's also a very good idea to always specify a title attribute for the a tag. The title attribute is used by the screen readers that help the visually impaired people get through the web page. The content in between the opening and closing a tags is the content you're going to see in the web page, when it is served and on which you're going to be able to click to go to the href that the a tag is configured with. Note the second example of our a tag. In this example, we're surrounding a div tag with our anchor tag. In other words, this div tag is going to be the content over our link on which were going to be able to click. Let's go ahead and see what this look like in the browser?
+	[MUSIC] Links pretty much what makes the web what it is. In this lecture, we're going to take a look at different types of links and how you could create them in your HTML page. So the first type of links that we're going to take a look at are internal links. Here I am looking at the file called links-internal.html, and it's located in the examples/Lecture09 folder. And here we have a couple of links we're going to take a look at. Now the way you create links is by specifying an a element with an attribute href. And href stands for hypertext reference. The value of href can either be a relative or an absolute URL. In our case here, since we're discussing internal links which are links that point to internal web pages of the where application, the links we're showing are all relative URL links. However we could still have an even absolute URL links as long as they point, again, to the same web application that we're in. Since we're providing no directory information, the browser will assume that same-directory.html is a file that lives in the same directory as links-internal.html. It's also a very good idea to always specify a title attribute for the a tag. The title attribute is used by the screen readers that help the visually impaired people get through the web page. The content in between the opening and closing a tags is the content you're going to see in the web page, when it is served and on which you're going to be able to click to go to the href that the a tag is configured with. Note the second example of our a tag. In this example, we're surrounding a div tag with our anchor tag. In other words, this div tag is going to be the content over our link on which were going to be able to click. Let's go ahead and see what this look like in the browser?
+<img src="http://torempixel.com/output/nature-q-c-640-480-1.jpg" width = "640" height="480">
+</section>
+<div>
+	<a name="section2">(#section2) Section 2</a>
+	<p>
+		Back to top:<a href="#top"> Back to top</a>
+	</p>
+</div>
 	
 </section>
 </body>
